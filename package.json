@@ -1,0 +1,28 @@
+{
+  "name": "spotify-mqtt",
+  "version": "0.0.1",
+  "description": "Enables interfacing with Spotify over MQTT using the SpotifyWebHelper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/seymar/spotify-mqtt.git"
+  },
+  "keywords": [
+    "spotify",
+    "mqtt"
+  ],
+  "author": "S.E.Y. Martens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seymar/spotify-mqtt/issues"
+  },
+  "homepage": "https://github.com/seymar/spotify-mqtt#readme",
+  "dependencies": {
+    "mqtt": "^2.3.1",
+    "spotify-web-helper": "^1.7.0"
+  }
+}

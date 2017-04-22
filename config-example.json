@@ -1,0 +1,6 @@
+{
+  "handle": "mqtt://localhost:1883",
+  "username": "myname",
+  "password": "mypassword",
+  "topicPrefix": "spotify"
+}
